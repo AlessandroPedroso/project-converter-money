@@ -12,8 +12,8 @@ body {
 .container {
     width: 375px;
     background-color: #F4F4F4;
-    margin: 0 auto;
-    margin-top: 100px;
+    margin: 40px auto;
+    
 }
 
 header {
@@ -109,4 +109,45 @@ button:hover{
 
 button:active{
     opacity: 0.7;
+}
+
+section{
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.currency-container{
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.currency-name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.currency-value{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    color: #1B83E2;
+}
+
+.arrow-img{
+    margin: 15px 0;
 }
